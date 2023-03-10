@@ -13,7 +13,8 @@
         <title>IDRS_Registration</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/Indexstyle.css" rel="stylesheet" type="text/css">
+        <!--        <link href="css/Indexstyle.css" rel="stylesheet" type="text/css">-->
+        <link href="css/indexstyle.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js"></script>
@@ -21,7 +22,7 @@
     <body>
         <div class="container">
             <div class="imglogo">
-                <img class="mahidollogo" src="pic/idrsmu.png" alt="idrsmu" style=" width: 300px; height: auto; margin: 0px 170px;">
+                <img class="mahidollogo" src="pic/idrsmu.png" alt="idrsmu" >
             </div>
             <div class="title">Registration</div>
             <div class="content">
@@ -41,7 +42,7 @@
                         <div class="input-box">
                             <span class="details">Email</span>
                             <input type="email" placeholder="Enter your email" name="email" required>
-                            <p class="notify" style="font-size: 13px; color: #999">*Confirmation and receipt emailed to this email address</p>
+                            <p class="notify" >*Confirmation and receipt emailed to this email address</p>
                         </div>
 
                         <!--                        <div class="input-box">
@@ -51,18 +52,18 @@
                         <div class="input-box">
                             <span class="details">Affiliation</span>
                             <input type="text" placeholder="Enter your affiliation" name="affiliation" required>
-                            <p class="notify" style="font-size: 13px; color: #999">*Current place of study/work or other - on more than s affiliations, this will go on your name tag</p>
+                            <p class="notify">*Current place of study/work or other - on more than s affiliations, this will go on your name tag</p>
                         </div>
                         <div class="input-box">
                             <span class="details">Preferred pronouns</span>
                             <input type="text" placeholder="Enter your pronouns" name="pronouns" required>
-                            <p>*if any - this will go on your name tag</p>
+                            <p class="notify">*if any - this will go on your name tag</p>
                         </div>
                         <!--                        phone Number with country code-->
 
                         <div class="input-box">              
                             <span class="details">Phone Number</span>
-                            <input type="tel" id="phone" name="phone[main]" placeholder="Enter phone number with country code">
+                            <input type="tel" id="phone" name="phone[main]" placeholder="Enter phone number">
                             <!--                            <span id="valid-msg" class="hide">✓ Valid</span>
                                                         <span id="error-msg" class="hide"></span>-->
 

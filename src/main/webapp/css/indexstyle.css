@@ -1,14 +1,12 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : Oct 6, 2022, 4:57:20 PM
-    Author     : Acer
+    Created on : Mar 10, 2023, 12:35:27 PM
+    Author     : paanpun
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -24,7 +22,7 @@ body{
   background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 .container{
-  max-width: 700px;
+  max-width: 1000px;
   width: 100%;
   background-color: #fff;
   padding: 25px 30px;
@@ -52,6 +50,12 @@ body{
   justify-content: space-between;
   margin: 20px 0 12px 0;
 }
+.mahidollogo{ 
+    
+    width: 400px; 
+    height: auto; 
+    margin: 0px 290px;
+}
 form .user-details .input-box{
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
@@ -61,7 +65,10 @@ form .input-box span.details{
   font-weight: 500;
   margin-bottom: 5px;
 }
-
+.notify{
+    font-size: 13px; 
+    color: #999;
+}
 .planid{
     height: 45px;
     width: 100%;
@@ -232,7 +239,7 @@ form .input-box span.details{
  form input[type="radio"]{
    display: none;
  }
-/* form .certify-checkbox{
+ form .certify-checkbox{
    display: flex;
    width: 80%;
    margin: 14px 0 ;
@@ -251,7 +258,7 @@ form .input-box span.details{
   background: #d9d9d9;
   border: 5px solid transparent;
   transition: all 0.3s ease;
-}*/
+}
 
  form .button{
    height: 45px;
@@ -274,7 +281,33 @@ form .input-box span.details{
   /* transform: scale(0.99); */
   background: linear-gradient(-135deg, #71b7e6, #9b59b6);
   }
+  @media(max-width: 915px){
+      .mahidollogo{
+    width: 300px; 
+    height: auto; 
+    margin: 0px 250px;
+     }
+  }
+  @media(max-width: 820px){
+      .mahidollogo{
+    width: 300px; 
+    height: auto; 
+    margin: 0px 200px;
+     }
+  }
+  @media(max-width: 690px){
+      .mahidollogo{
+    width: 300px; 
+    height: auto; 
+    margin: 0px 150px;
+     }
+  }
  @media(max-width: 584px){
+     .mahidollogo{
+    width: 250px; 
+    height: auto; 
+    margin: 0px 100px;
+     }
  .container{
   max-width: 100%;
 }
@@ -294,7 +327,18 @@ form .user-details .input-box{
   }
   }
   @media(max-width: 459px){
+      .mahidollogo{
+    width: 200px; 
+    height: auto; 
+    margin: 0px 50px;
+/*  .container .content .category{
+    flex-direction: column;*/
+  }
+  @media(max-width: 309px){
+    .mahidollogo{
+    width: 150px; 
+    height: auto; 
+    margin: 0px 10px;
   .container .content .category{
     flex-direction: column;
   }
-}

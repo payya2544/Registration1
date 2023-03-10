@@ -34,7 +34,7 @@
     String action = request.getParameter("action");
     if (action.equals("register")) {
         try {
-            String sql = "INSERT INTO registrant(`FirstName`, `LastName`, `Email`, `Affiliation`, `Pronouns`, `PhoneNumber`, `Address`) VALUES(?,?,?,?,?,?,?)";
+            String sql = "INSERT INTO user(`FirstName`, `LastName`, `Email`, `Affiliation`, `Pronouns`, `PhoneNumber`, `Address`) VALUES(?,?,?,?,?,?,?)";
             PreparedStatement ps = connection.prepareStatement(sql);
             ps.setString(1, request.getParameter("fname"));
             ps.setString(2, request.getParameter("lname"));
